@@ -6,7 +6,7 @@ from keras.models import load_model
 from PIL import Image
 
 # Load the model
-model = load_model("emotion_model_compile.keras")  # Or use .h5 depending on what you prefer
+model = load_model("emotion_model_compile.h5")  # Or use .h5 depending on what you prefer
 
 # Emotion categories - update these to match your model's output
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
