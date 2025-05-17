@@ -45,3 +45,10 @@ if frame is not None:
             cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
         st.image(img, caption="Detected Face(s)")
+
+st.markdown(
+    """
+    **This project was developed by Bijivemula Sumanth Kumar Reddy. The CNN model was trained using the HES Dataset:**
+    [Explore the HES Dataset on Kaggle](https://www.kaggle.com/datasets/muhammadhananasghar/human-emotions-datasethes)
+    """
+)
